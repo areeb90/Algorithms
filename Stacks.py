@@ -15,8 +15,8 @@ class Stack:
     return not self.items
 
 
-
-
+  def __str__(self): # returns a string representation of the stack
+        return str(self.items)
 
 
 # Test the stack
@@ -26,6 +26,7 @@ stack.push(1) # adds 1 to the top of the stack
 stack.push(2) # adds 2 to the top of the stack
 stack.push(3) # adds 3 to the top of the stack
 stack.push(5) # adds 5 to the top of the stack
+print(stack)  # prints [1, 2, 3, 5]
 print(stack.peek())    # prints 5
 print(stack.pop())   # prints 5 and removes it from the stack
 print(stack.is_empty()) # prints False (if the stack is not empty)
