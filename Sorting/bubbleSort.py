@@ -31,6 +31,8 @@ print(bubble_sort(lst))
 
 # The best-case time complexity of bubble sort is O(n), which occurs when the list is already sorted.
 
+# The space complexity of bubble sort is O(1), since it does not use any additional memory beyond the original list.
+
 # Bubble sort is a stable sorting algorithm, which means that it preserves the original order of equal elements.
 
 # Bubble sort can be improved by using the "cocktail sort" variant, which sorts the list in both directions.
