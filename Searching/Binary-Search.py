@@ -1,7 +1,12 @@
+#Time Complexity: O(log (n) + 1 ) OR  O(log (n))
+#Space Complexity: O(1) OR (constant)
+
+# binary_search function takes in an array and a target number to be searched in the array
 # arr is the array to be searched, target is the number to be searched in the array
+
 def binary_search(arr, target):
-    # iterationCount is the number of iterations it took to find the target number
-    iterationCount = 0
+
+    iterationCount = 0              # iterationCount is the number of iterations it takes to find the target number
     min = 0                         # min is the minimum index of the array
     max = len(arr)-1                # max is the maximum index of the array
     while min <= max:               # while the minimum index is less than or equal to the maximum index
