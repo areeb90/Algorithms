@@ -24,8 +24,8 @@ The algorithm uses two nested loops:
 
 ## Disadvantages:
 
-Selection sort is inefficient for large data sets because of its quadratic time complexity.
-Selection sort requires n-1 passes through the array, which can be time-consuming for large data sets.
+- Selection sort is inefficient for large data sets because of its quadratic time complexity.
+- Selection sort requires n-1 passes through the array, which can be time-consuming for large data sets.
 
 
 ## Note:
