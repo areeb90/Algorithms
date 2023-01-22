@@ -3,8 +3,35 @@
 
 ![image](https://user-images.githubusercontent.com/70211234/213745064-8a176c5c-fd1b-4044-b209-ecf21f8f20a4.png)
 
-
 Selection sort is a simple sorting algorithm that repeatedly selects the smallest element from the unsorted part of the array and appends it to the sorted part of the array.
+
+## How to implement it:
+
+The algorithm uses two nested loops:
+
+- The outer loop iterates through each element of the input array.
+- The inner loop iterates through all elements to the right of the outer loop's current element.
+- In each iteration of the inner loop, the function compares the current element to the element at the minimum index.
+- If the current element is smaller than the element at the minimum index, the minimum index is updated to the current index.
+- After the inner loop completes, the element at the minimum index is swapped with the current element of the outer loop.
+- The outer loop continues until the entire array is sorted.
+
+## Advantages:
+
+- Selection sort is a simple algorithm to implement and understand, making it a good choice for educational purposes.
+- Selection sort is efficient for small data sets or for sorting arrays that are already partially sorted.
+- Selection sort is a good choice when memory space is a concern.
+
+## Disadvantages:
+
+Selection sort is inefficient for large data sets because of its quadratic time complexity.
+Selection sort requires n-1 passes through the array, which can be time-consuming for large data sets.
+
+
+## Note:
+It's important to note that selection sort is not the most efficient sorting algorithm, but it can be useful for small data sets or for sorting arrays that are already partially sorted. It is also an easy algorithm to understand, which is why it's a popular topic in coding interviews.
+
+
 
 ## Time Complexity:
 
