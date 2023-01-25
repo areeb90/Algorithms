@@ -50,3 +50,39 @@ Selection sort has a quadratic time complexity in all cases, making it inefficie
 Selection sort has a constant space complexity, as it sorts the input array in place and does not require any additional memory. The only memory used is a temporary variable used for swapping the elements.
 
 It's worth noting that selection sort can be useful for small data sets or for sorting arrays that are already partially sorted or when memory space is a concern.
+
+# ALL ABOUT INSERTION SORT
+
+Insertion sort is a simple sorting algorithm that builds the final sorted list one item at a time. It repeatedly takes an element from the unsorted list and inserts it into the correct position in the sorted list.
+
+## How to implement it :
+
+Here is how the algorithm works in detail:
+
+- Start with an empty sorted list and an unsorted list of elements.
+- Take the first element from the unsorted list and insert it into the correct position in the sorted list.
+- Repeat step 2 for each remaining element in the unsorted list.
+- The algorithm stops when all elements have been added to the sorted list.
+
+
+## Time Complexity:
+
+- Best Case O(n)
+- Avg case O(n^2)
+- Worst Case O(n^2)
+
+
+## Space Complexity:
+
+- O(1) As it is inplace sorting algorithm
+
+
+## Time Complexity Explaination:
+
+Insertion sort is an in-place and stable sorting algorithm, meaning that it sorts the input array in place and preserves the relative order of equal elements. It has a time complexity of O(n^2) in the worst case, but it can be efficient for small data sets or for sorting arrays that are already partially sorted.
+
+The best case of Insertion sort is O(n) when the input array is already sorted, it goes through the input array once and doesn't make any swap, it simply keeps moving the next element to the right, this process is known as "shifting" and has a time complexity of O(n).
+
+The average case is also O(n^2), as it has to iterate through the array multiple times and make multiple comparisons and swaps.
+
+It's worth noting that Insertion sort is not the most efficient sorting algorithm, but it can be useful for small data sets or for sorting arrays that are already
