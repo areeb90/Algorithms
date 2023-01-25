@@ -85,4 +85,5 @@ The best case of Insertion sort is O(n) when the input array is already sorted, 
 
 The average case is also O(n^2), as it has to iterate through the array multiple times and make multiple comparisons and swaps.
 
+## Note:
 It's worth noting that Insertion sort is not the most efficient sorting algorithm, but it can be useful for small data sets or for sorting arrays that are already
