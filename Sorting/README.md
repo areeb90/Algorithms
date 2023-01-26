@@ -103,14 +103,30 @@ It's worth noting that Insertion sort is not the most efficient sorting algorith
 
 
 # ALL ABOUT BUBBLE SORT:
+![image](https://user-images.githubusercontent.com/70211234/214935489-8d952d44-912b-4cb2-a505-d7cf91f3651d.png)
+
+Bubble sort is a simple and inefficient sorting algorithm that repeatedly steps through the list to be sorted, compares each pair of adjacent items and swaps them if they are in the wrong order. The pass through the list is repeated until no swaps are needed, which indicates that the list is sorted.
+
 
 ## How to implement it :
 
 ## Time Complexity:
 
+The time complexity of the bubble sort algorithm is 
+- O(n^2) in the worst and average case  
+- O(n) in the best case (when the input array is already sorted). 
+
+This is because in the worst case scenario, the algorithm needs to iterate through the entire array n times, and in each iteration, it needs to compare and swap n-1 elements.
+
 ## Space Complexity:
 
+The space complexity of the bubble sort algorithm is 
+- O(1) as it only requires a constant amount of additional memory to store temporary variables for swapping elements.
+
 ## Note:
+
+It's important to note that bubble sort is not efficient and not the best choice for sorting large arrays and it's not recommended to use it, there are better sorting algorithms that have better time and space complexity such as Quick sort, merge sort, and heap sort.
+
 
 
 # ALL ABOUT MERGE SORT:
