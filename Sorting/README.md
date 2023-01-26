@@ -89,3 +89,39 @@ The average case is also O(n^2), as it has to iterate through the array multiple
 
 ## Note:
 It's worth noting that Insertion sort is not the most efficient sorting algorithm, but it can be useful for small data sets or for sorting arrays that are already
+
+
+# ALL ABOUT QUICK SORT:
+
+## How to implement it :
+
+## Time Complexity:
+
+## Space Complexity:
+
+## Note:
+
+
+# ALL ABOUT BUBBLE SORT:
+
+## How to implement it :
+
+## Time Complexity:
+
+## Space Complexity:
+
+## Note:
+
+
+# ALL ABOUT MERGE SORT:
+
+## How to implement it :
+
+## Time Complexity:
+
+## Space Complexity:
+
+## Note:
+
+
+
