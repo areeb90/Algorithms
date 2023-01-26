@@ -53,6 +53,8 @@ It's worth noting that selection sort can be useful for small data sets or for s
 
 # ALL ABOUT INSERTION SORT
 
+![image](https://user-images.githubusercontent.com/70211234/214934253-15d91aaf-d539-4f6f-892b-bde47f4f47ff.png)
+
 Insertion sort is a simple sorting algorithm that builds the final sorted list one item at a time. It repeatedly takes an element from the unsorted list and inserts it into the correct position in the sorted list.
 
 ## How to implement it :
