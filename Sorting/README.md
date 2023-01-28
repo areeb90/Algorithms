@@ -153,6 +153,10 @@ This process is repeated until all elements from both halves have been added to 
 
 - Merge sort is a stable sort, meaning that it preserves the relative order of elements with equal keys. It is also a very efficient sorting algorithm for large data sets or data sets that are already partially sorted or reverse-sorted.
 - Merge sort is also easily implemented in both serial and parallel computing environments, making it well suited for large-scale data processing and sorting tasks.
-
+- In-memory sorting: Merge Sort is often used as the sorting algorithm in the C++ STL sort() function, Java's Arrays.sort() method, and other in-memory sorting libraries.
+- External sorting: When dealing with very large data sets that do not fit in memory, Merge Sort can be used to sort the data in a distributed or external system. This is done by reading chunks of data into memory, sorting them, and then merging the sorted chunks back together.
+- Distributed systems: Merge Sort can be easily parallelized, making it a good choice for sorting data in distributed systems. For example, it can be used in a MapReduce architecture to sort data on multiple machines.
+- Search engines: Merge Sort is often used to sort data in search engines. The sorted data is then used to quickly perform lookups and searches.
+- Version control systems: Merge Sort is used in many version control systems to merge changes from multiple branches into a single branch.
 
 
