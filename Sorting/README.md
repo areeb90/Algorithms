@@ -131,13 +131,28 @@ It's important to note that bubble sort is not efficient and not the best choice
 
 # ALL ABOUT MERGE SORT:
 
+Merge sort is a divide-and-conquer sorting algorithm that works by breaking down a larger array into smaller sub-arrays, sorting each sub-array, and then merging the sub-arrays back together in a sorted order. The basic idea behind merge sort is to divide the array into two equal halves, sort each half, and then merge the two sorted halves back together.
+
 ## How to implement it :
+
+- The algorithm starts by dividing the input array into two equal halves and recursively sorting each half. 
+- Once the halves are sorted, the algorithm uses a merge function to merge the two sorted halves back together. 
+- The merge function compares the first element of each half and adds the smaller of the two elements to the final, sorted array. 
+This process is repeated until all elements from both halves have been added to the sorted array.
 
 ## Time Complexity:
 
+- The time complexity of merge sort is O(n log n) in the average and worst case. This is because the algorithm divides the array into two halves on each recursive call, and the number of recursive calls is logarithmic to the size of the array. 
+- Additionally, the merge step of the algorithm takes O(n) time because it needs to compare and merge each element from the two sorted halves. 
+
 ## Space Complexity:
 
+The space complexity of merge sort is O(n) because it needs to create a new array to store the sorted elements.
+
 ## Note:
+
+- Merge sort is a stable sort, meaning that it preserves the relative order of elements with equal keys. It is also a very efficient sorting algorithm for large data sets or data sets that are already partially sorted or reverse-sorted.
+- Merge sort is also easily implemented in both serial and parallel computing environments, making it well suited for large-scale data processing and sorting tasks.
 
 
 
