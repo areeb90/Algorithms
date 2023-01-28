@@ -147,7 +147,7 @@ This process is repeated until all elements from both halves have been added to 
 
 ## Space Complexity:
 
-The space complexity of merge sort is O(n) because it needs to create a new array to store the sorted elements.
+- The space complexity of merge sort is O(n) because it needs to create a new array to store the sorted elements.
 
 ## Note:
 
