@@ -131,6 +131,9 @@ It's important to note that bubble sort is not efficient and not the best choice
 
 # ALL ABOUT MERGE SORT:
 
+![image](https://user-images.githubusercontent.com/70211234/215998364-cf9f6786-9096-4251-b90c-1afa1a3248bc.png)
+
+
 Merge sort is a divide-and-conquer sorting algorithm that works by breaking down a larger array into smaller sub-arrays, sorting each sub-array, and then merging the sub-arrays back together in a sorted order. The basic idea behind merge sort is to divide the array into two equal halves, sort each half, and then merge the two sorted halves back together.
 
 ## How to implement it :
