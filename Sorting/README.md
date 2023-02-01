@@ -92,6 +92,8 @@ It's worth noting that Insertion sort is not the most efficient sorting algorith
 
 
 # ALL ABOUT QUICK SORT:
+![image](https://user-images.githubusercontent.com/70211234/215999651-8b234987-306f-4f1b-8af9-23fb466be53c.png)
+
 
 ## How to implement it :
 
