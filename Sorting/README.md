@@ -94,8 +94,16 @@ It's worth noting that Insertion sort is not the most efficient sorting algorith
 # ALL ABOUT QUICK SORT:
 ![image](https://user-images.githubusercontent.com/70211234/215999651-8b234987-306f-4f1b-8af9-23fb466be53c.png)
 
+QuickSort is a divide-and-conquer algorithm that works by selecting a "pivot" element from the array and partitioning the other elements into two sub-arrays, according to whether they are less than or greater than the pivot. The sub-arrays are then sorted recursively. This can be done efficiently in linear time and space.
 
 ## How to implement it :
+The basic algorithm of QuickSort is as follows:
+
+- Select a pivot element from the array.
+- Partition the other elements into two sub-arrays, according to whether they are less than or greater than the pivot.
+- Recursively sort the sub-arrays.
+- Combine the sorted sub-arrays and the pivot element to form the final sorted array.
+
 
 ## Time Complexity:
 
