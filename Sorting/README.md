@@ -107,14 +107,19 @@ The basic algorithm of QuickSort is as follows:
 
 ## Time Complexity:
 - Best case time complexity: O(nlogn) 
+- 
 The best case occurs when the pivot elements are chosen optimally and the elements are partitioned equally in both sub-arrays. This results in the balanced partition of the array, which leads to an O(nlogn) time complexity.
+
 - Average case time complexity: O(nlogn)
+
 The average case occurs when the pivot elements are chosen randomly. This leads to the balanced partition of the array, which results in an O(nlogn) time complexity.
 - Worst case time complexity: O(n^2)
+
 The worst case occurs when the pivot elements are either the largest or the smallest element in the array. This results in an imbalanced partition of the array, leading to a time complexity of O(n^2).
 
 ## Space Complexity:
 - Space complexity: O(logn)
+
 The space complexity of Quick Sort is O(logn) as the algorithm uses recursive calls and the maximum depth of recursion is log(n).
 ## Note:
 
