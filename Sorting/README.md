@@ -107,7 +107,7 @@ The basic algorithm of QuickSort is as follows:
 
 ## Time Complexity:
 - Best case time complexity: O(nlogn) 
-- 
+
 The best case occurs when the pivot elements are chosen optimally and the elements are partitioned equally in both sub-arrays. This results in the balanced partition of the array, which leads to an O(nlogn) time complexity.
 
 - Average case time complexity: O(nlogn)
@@ -121,8 +121,19 @@ The worst case occurs when the pivot elements are either the largest or the smal
 - Space complexity: O(logn)
 
 The space complexity of Quick Sort is O(logn) as the algorithm uses recursive calls and the maximum depth of recursion is log(n).
-## Note:
+## Real world Use cases:
+- Sorting large datasets: Quick sort is a fast sorting algorithm that is ideal for sorting large datasets. Its average case time complexity of O(n log n) is efficient for large datasets, making it a popular choice for many applications.
 
+- Operating systems: Quick sort is used in many operating systems to sort directories and files. This helps users quickly locate and access the files they need.
+
+- Database management systems: Quick sort is used in many database management systems to sort data in a database. This helps users quickly search for and retrieve the data they need.
+
+- Compilers: Quick sort is used in many compilers to sort symbols in symbol tables. This helps the compiler quickly locate and access the symbols it needs to generate machine code.
+
+- Search engines: Quick sort is used in many search engines to sort search results. This helps users quickly find the information they are looking for.
+
+- Data compression: Quick sort is used in some data compression algorithms to sort data before it is compressed. This helps reduce the size of the compressed data.
+- Graphical user interfaces: Quick sort is used in graphical user interfaces to sort data in tables, lists, and other data structures.
 
 # ALL ABOUT BUBBLE SORT:
 ![image](https://user-images.githubusercontent.com/70211234/214935489-8d952d44-912b-4cb2-a505-d7cf91f3651d.png)
